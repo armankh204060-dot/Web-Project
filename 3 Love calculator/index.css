@@ -1,0 +1,56 @@
+#body{
+     background-color: lightgreen;
+     color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     font-family: Arial, sans-serif;
+}
+
+#grand-parent{
+     background-color: white;
+     color: black;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: black;
+}
+
+#parent{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+form{
+     display: flex;
+     flex-direction: column;
+     gap: 12px;      /* replaces <br> spacing */
+}
+
+input{
+     padding: 10px;
+     width: 200px;
+     border-radius: 5px;
+     border: 1px solid gray;
+}
+
+button{
+     padding: 10px 20px;
+     background-color: crimson;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-weight: bold;
+     cursor: pointer;
+     margin-top: 10px;
+}
+
+button:hover{
+     background-color: darkred;
+}
+
+h2{
+     margin-top: 20px;
+}
