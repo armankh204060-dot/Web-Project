@@ -1,0 +1,57 @@
+body{
+font-family: Arial, sans-serif;
+background-color: black;
+color: white;
+margin: 20px;
+}
+
+h1{
+margin-bottom: 20px;
+}
+
+
+.parent{
+display:flex;
+align-items:center;
+gap:15px;
+background:#222;
+padding:10px;
+border-radius:8px;
+margin-bottom:15px;   
+}
+
+
+.task{
+font-size:20px;
+flex:1;
+}
+
+
+.doneButton{
+width:70px;
+padding:5px;
+background-color:green;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.doneButton:hover{
+background-color:darkgreen;
+}
+
+
+.deleteButton{
+width:70px;
+padding:5px;
+background-color:red;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.deleteButton:hover{
+background-color:darkred;
+}
